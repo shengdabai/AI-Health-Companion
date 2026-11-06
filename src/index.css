@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles consume the Tailwind preset adopted in tailwind.config.js. */
+@layer base {
+  :root {
+    font-family: theme('fontFamily.sans');
+    line-height: theme('lineHeight.normal');
+    font-weight: theme('fontWeight.normal');
+    color: theme('colors.gray.900');
+    background-color: theme('colors.white');
+    color-scheme: light;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body { margin: 0; min-width: 0; min-height: 100vh; }
+  #root { width: 100%; min-height: 100vh; }
+  a { color: inherit; text-decoration: inherit; }
+}

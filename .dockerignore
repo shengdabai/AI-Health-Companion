@@ -1,0 +1,15 @@
+node_modules
+**/node_modules
+.git
+.omc
+dist
+coverage
+server
+.env*
+**/.env*
+**/auth.json
+**/credentials.*
+**/secrets.*
+**/*.key
+**/*.pem
+**/.ssh
